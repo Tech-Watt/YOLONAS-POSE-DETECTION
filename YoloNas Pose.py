@@ -4,7 +4,7 @@ from super_gradients.training.utils.visualization.pose_estimation import PoseVis
 import cv2
 import torch
 
-video = r'C:\Users\Admin\Desktop\data\neutral/10.mp4'
+video = 'place your video path here'
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model = super_gradients.training.models.get("yolo_nas_pose_l",
